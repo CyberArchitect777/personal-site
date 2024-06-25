@@ -60,7 +60,8 @@ ul.dropdown-menu.show {
     font-size: 120%;
 }
 
-.lowermain {
+/* Raise the top and bottom margins of the page to take the fixed header and footer into account */
+.betweenhandf {
     margin-top: 30px;
     margin-bottom: 60px;
 }
