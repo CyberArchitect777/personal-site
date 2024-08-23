@@ -2,12 +2,31 @@
 /* Google Font imports */
 
 @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 /* General styling */
 
 body {
     font-family: "Raleway", sans-serif;
     text-align: center;
+}
+
+/* Colour styling */
+
+.colours-headfoot {
+    background-color: white;
+    color: black;
+}
+
+.colours-body {
+    background-color: white;
+    color: black;
+}
+
+.colours-boxes {
+    background-color: lightgrey;
+    color: black;
 }
 
 /* Header styling */
@@ -31,6 +50,16 @@ ul.dropdown-menu.show {
     color: black;
 }
 
+/* Main styling */
+
+#introbox h1, #introbox h2 {
+    font-size: 170%;
+}
+
+#photodesc p {
+    font-size: 120%;
+}
+
 /* Raise the top and bottom margins of the page to take the fixed header and footer into account */
 .betweenhandf {
     margin-top: 30px;
@@ -42,7 +71,6 @@ ul.dropdown-menu.show {
     justify-content: center;
     flex-direction: column;
     padding: 40px;
-    background-color: lightgrey;
     margin: auto;
     margin-top: 40px;
     border-radius: 30px;
