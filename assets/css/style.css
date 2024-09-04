@@ -103,7 +103,7 @@ ul.dropdown-menu.show {
     scroll-margin-top: 75px;
 }
 
-#groupproject a {
+#groupproject a, #personalproject a {
     color: black;
 }
 
