@@ -52,6 +52,16 @@ ul.dropdown-menu.show {
 
 /* Main styling */
 
+.carousel-item {
+    background-color: white;
+}
+
+.carousel-item p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
 #introbox h1, #introbox h2 {
     font-size: 170%;
 }
@@ -70,7 +80,7 @@ ul.dropdown-menu.show {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 40px;
+    padding: 10px;
     margin: auto;
     margin-top: 40px;
     border-radius: 30px;
@@ -122,6 +132,18 @@ footer p {
 }
 
 /* Media queries for different screen sizes */
+
+@media only screen and (min-width: 577px) {
+    
+    .carousel-item p {
+        width: 70%;
+    }
+
+    .boxstyling {
+        padding: 30px;
+    }
+
+}
 
 @media only screen and (min-width: 991px) {
     
