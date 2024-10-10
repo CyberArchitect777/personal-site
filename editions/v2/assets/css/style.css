@@ -52,16 +52,6 @@ ul.dropdown-menu.show {
 
 /* Main styling */
 
-.carousel-item {
-    background-color: white;
-}
-
-.carousel-item p {
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-}
-
 #introbox h1, #introbox h2 {
     font-size: 170%;
 }
