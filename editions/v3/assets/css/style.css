@@ -82,6 +82,12 @@ ul.dropdown-menu.show {
     padding: 10px;
 }
 
+.card {
+    width: 280px;
+    height: 500px;
+    margin: 20px;
+}
+
 .dataheading {
     font-size: 200%;
     display: inline-block;
