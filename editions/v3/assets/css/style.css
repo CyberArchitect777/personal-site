@@ -86,6 +86,11 @@ ul.dropdown-menu.show {
     width: 280px;
     height: 600px;
     margin: 20px;
+    border: 1px solid black;
+}
+
+.card-img-top {
+    padding: 10px;
 }
 
 .dataheading {
