@@ -13,31 +13,31 @@
 <body class="container d-flex flex-column min-vh-100 colours-body" id="top">
     <header class="fixed-top colours-headfoot">
         <nav class="row">
-            <div id="logo" class="col-4">
+            <div id="logo" class="col-3">
                 <a id="logolink" href="#top">
                     <h1 class="ms-2 d-flex justify-content-start">Barrie</h1>
                 </a>
             </div>
-            <div class="navbar col-8">
+            <div class="navbar col-9">
                 <div class="container-fluid">
                     <ul class="d-flex navbar-nav me-auto mb-2 mb-lg-0 flex-grow-1 flex-row justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link me-4 d-none d-sm-block" href="#personalproject">Individual Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link me-4 d-none d-sm-block" href="#groupproject">Collaborative Portfolio</a>
+                        </li>
                         <li class="nav-item ">
-                            <a class="nav-link me-4 d-none d-sm-block" href="#qualifications">Qualifications</a>
+                            <a class="nav-link me-4 d-none d-md-block" href="#qualifications">Qualifications</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link me-4 d-none d-sm-block" href="#courses">Courses</a>
+                            <a class="nav-link me-4 d-none d-lg-block" href="#courses">Courses</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link me-4 d-none d-md-block" href="#personalproject">Individual Projects</a>
+                            <a class="nav-link me-4 d-none d-lg-block" href="#employment">Employment</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link me-4 d-none d-lg-block" href="#groupproject">Collaborative Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link me-4 d-none d-xl-block" href="#employment">Employment</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link me-4 d-none d-xxl-block" href="#techskills">Technical Skills</a>
+                            <a class="nav-link me-4 d-none d-xl-block" href="#techskills">Technical Skills</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link me-4 d-none" href="#personalskills">Personal Skills</a>
@@ -52,14 +52,14 @@
                                 <span class="d-none d-sm-block">More</span>
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item d-sm-none" href="#qualifications">Qualifications</a></li>
-                                <li><a class="dropdown-item d-sm-none" href="#courses">Courses</a></li>
-                                <li><a class="dropdown-item d-md-none" href="#personalproject">Individual Projects</a>
+                                <li><a class="dropdown-item d-sm-none" href="#personalproject">Individual Portfolio</a>
                                 </li>
-                                <li><a class="dropdown-item d-lg-none" href="#groupproject">Collaborative Projects</a>
+                                <li><a class="dropdown-item d-sm-none" href="#groupproject">Collaborative Portfolio</a>
                                 </li>
-                                <li><a class="dropdown-item d-xl-none" href="#employment">Employment</a></li>
-                                <li><a class="dropdown-item d-xxl-none" href="#techskills">Technical Skills</a></li>
+                                <li><a class="dropdown-item d-md-none" href="#qualifications">Qualifications</a></li>
+                                <li><a class="dropdown-item d-lg-none" href="#courses">Courses</a></li>
+                                <li><a class="dropdown-item d-lg-none" href="#employment">Employment</a></li>
+                                <li><a class="dropdown-item d-xl-none" href="#techskills">Technical Skills</a></li>
                                 <li><a class="dropdown-item" href="#personalskills">Personal Skills</a></li>
                                 <li><a class="dropdown-item" href="#interests">Personal Interests</a></li>
                             </ul>
@@ -74,7 +74,7 @@
             <h1 class="text-center">Hi, I'm <strong>Barrie Millar</strong></h1>
             <h2 class="text-center">I'm a junior full-stack web developer eager to apply my skills to deliver valuable
                 solutions</h2>
-            <div class="d-flex justify-content-between mt-4">
+            <div class="d-flex justify-content-between mt-4 mx-2">
                 <a target="_blank" href="https://github.com/CyberArchitect777" class="btn btn-secondary">GitHub</a>
                 <a target="_blank" href="https://www.linkedin.com/in/cyber-architect-barrie-millar/" class="btn btn-secondary">LinkedIn</a>
             </div>
@@ -97,6 +97,216 @@
                     return to the profession I had always imagined myself doing.</p>
                 <p>With that in mind, I'm currently looking for employment in the software development industry. I'm
                     also currently working on my software portfolio and refreshing my skills in PHP</p>
+            </div>
+        </section>
+        <section id="personalproject" class="boxstyling row colours-boxes" aria-label="Individual Portfolio Section">
+            <div class="col-12">
+                <div>
+                    <i class="fa-solid fa-people-group d-flex justify-content-center"></i>
+                    <p class="dataheading text-center d-block mt-4 mb-4">Individual Portfolio</p>
+                </div>
+                <table class="d-none d-lg-block mt-3 table table-striped">
+                    <thead class="mx-auto d-flex flex-column">
+                        <tr class="row">
+                            <th class="col-2">Title</th>
+                            <th class="col-4">Description</th>
+                            <th class="col-2">Technologies Used</th>
+                            <th class="col-2">Progress</th>
+                            <th class="col-2">Links</th>
+                        </tr>
+                    </thead>
+                    <tbody class="mx-auto d-flex flex-column">
+                        <tr class="row">
+                            <td class="col-2">Personal Site</td>
+                            <td class="col-4">My personal page containing information on my employment history, education, skills and software portfolio</td>
+                            <td class="col-2">HTML, CSS, Bootstrap</td>
+                            <td class="col-2">Completed, but maintained and improved periodically</td>
+                            <td class="col-2">This site - <a
+                                    href="https://github.com/CyberArchitect777/personal-site"
+                                    target="_blank">Repository</a></td>
+                        </tr>
+                        <tr class="row">
+                            <td class="col-2">Bootstrapped News Experiment</td>
+                            <td class="col-4">A single page to showcase coding skills in representing a humorous news
+                                front page</td>
+                            <td class="col-2">HTML, CSS, Bootstrap</td>
+                            <td class="col-2">Completed minus small tweaks</td>
+                            <td class="col-2"><a
+                                    href="https://cyberarchitect777.github.io/bootstrapped-news-experiment/"
+                                    target="_blank">Website</a> - <a
+                                    href="https://github.com/CyberArchitect777/bootstrapped-news-experiment"
+                                    target="_blank">Repository</a></td>
+                        </tr>
+                        <tr class="row">
+                            <td class="col-2">Carrier Directive</td>
+                            <td class="col-4">A text-mode strategic game inspired by the 1988 game Carrier Command</td>
+                            <td class="col-2">Python</td>
+                            <td class="col-2">Early stages</td>
+                            <td class="col-2"><a href="https://github.com/CyberArchitect777/carrier-directive"
+                                    target="_blank">Repository</a></td>
+                        </tr>
+                        <tr class="row">
+                            <td class="col-2">Hacker Whacker: Access Denied</td>
+                            <td class="col-4">A developed evolution of the original collaborative project Hacker Whacker
+                                (A themed whack-a-mole style game)</td>
+                            <td class="col-2">HTML, CSS, Bootstrap, JavaScript</td>
+                            <td class="col-2">Progressing</td>
+                            <td class="col-2"><a
+                                    href="https://cyberarchitect777.github.io/hacker-whacker-access-denied/"
+                                    target="_blank">Website</a> - <a
+                                    href="https://github.com/CyberArchitect777/hacker-whacker-access-denied"
+                                    target="_blank">Repository</a></td>
+                        </tr>
+                        <tr class="row">
+                            <td class="col-2">Byte 2 Eat: Extra Helping</td>
+                            <td class="col-4">A developed evolution of the original
+                                collaborative project Byte 2 Eat</td>
+                            <td class="col-2">HTML, CSS, Bootstrap, Python, Django</td>
+                            <td class="col-2">Nearing completion</td>
+                            <td class="col-2"><a
+                                    href="https://byte-2-eat-extra-helping-d8627f2c050a.herokuapp.com/"
+                                    target="_blank">Website</a> - <a
+                                    href="https://github.com/CyberArchitect777/byte-2-eat-extra-helping"
+                                    target="_blank">Repository</a></td>
+                        </tr>
+                        <tr class="row">
+                            <td class="col-2">MyMeds</td>
+                            <td class="col-4">A tracker designed to allow people to keep track of the medication they are taking</td>
+                            <td class="col-2">HTML, CSS, Bootstrap, PHP</td>
+                            <td class="col-2">Very early stages</td>
+                            <td class="col-2"><a
+                                    href="https://mymeds-ae895ce9ccba.herokuapp.com"
+                                    target="_blank">Website</a> - <a
+                                    href="https://github.com/CyberArchitect777/mymeds"
+                                    target="_blank">Repository</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="d-lg-none mt-4 table table-striped">
+                    <tbody>
+                        <tr>
+                            <td><strong>Personal Site</strong> - My personal page containing information on my employment history, education, skills and software portfolio (HTML, CSS, Bootstrap) - This site - <a
+                                    href="https://github.com/CyberArchitect777/personal-site"
+                                    target="_blank">Repository</a>
+                                <p class="mt-1 mb-0 fst-italic">Status: Completed, but maintained and improved periodically</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>Bootstrapped News Experiment</strong> - A single page to showcase coding skills
+                                in representing a humorous news front page (HTML, CSS, Bootstrap) - <a
+                                    href="https://cyberarchitect777.github.io/bootstrapped-news-experiment/"
+                                    target="_blank">Website</a> - <a
+                                    href="https://github.com/CyberArchitect777/bootstrapped-news-experiment"
+                                    target="_blank">Repository</a>
+                                <p class="mt-1 mb-0 fst-italic">Status: Completed minus small tweaks</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>Carrier Directive</strong> - A text-mode strategic game inspired by the 1988
+                                game Carrier Command (Python) - <a
+                                    href="https://github.com/CyberArchitect777/carrier-directive"
+                                    target="_blank">Repository</a>
+                                <p class="mt-1 mb-0 fst-italic">Status: Early stages</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>Hacker Whacker: Access Denied</strong> - A developed evolution of the original
+                                collaborative game Hacker Whacker (HTML, CSS, Bootstrap, JavaScript) - <a
+                                    href="https://cyberarchitect777.github.io/hacker-whacker-access-denied/"
+                                    target="_blank">Website</a> - <a
+                                    href="https://github.com/CyberArchitect777/hacker-whacker-access-denied"
+                                    target="_blank">Repository</a>
+                                <p class="mt-1 mb-0 fst-italic">Status: Progressing</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>Byte 2 Eat: Extra Helping</strong> - A developed evolution of the original
+                                collaborative project <em>Byte 2 Eat</em> (HTML, CSS, Bootstrap, Python, Django) - <a
+                                    href="https://byte-2-eat-extra-helping-d8627f2c050a.herokuapp.com/"
+                                    target="_blank">Website</a> - <a
+                                    href="https://github.com/CyberArchitect777/byte-2-eat-extra-helping"
+                                    target="_blank">Repository</a>
+                                <p class="mt-1 mb-0 fst-italic">Status: Nearing completion</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>MyMeds</strong> - A tracker designed to allow people to keep track of the medication they are taking <em>MyMeds</em> (HTML, CSS, Bootstrap, PHP) - <a
+                                    href="https://mymeds-ae895ce9ccba.herokuapp.com"
+                                    target="_blank">Website</a> - <a
+                                    href="https://github.com/CyberArchitect777/mymeds"
+                                    target="_blank">Repository</a>
+                                <p class="mt-1 mb-0 fst-italic">Status: Very early stages</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <section id="groupproject" class="boxstyling row colours-boxes" aria-label="Collaborative Portfolio Section">
+            <div class="col-12">
+                <div>
+                    <i class="fa-solid fa-people-group d-flex justify-content-center"></i>
+                    <p class="dataheading text-center d-block mt-4 mb-4">Collaborative Portfolio</p>
+                </div>
+                <table class="d-none d-lg-block mt-3 table table-striped">
+                    <thead class="mx-auto d-flex flex-column">
+                        <tr class="row">
+                            <th class="col-2">Title</th>
+                            <th class="col-4">Description</th>
+                            <th class="col-2">Technologies Used</th>
+                            <th class="col-2">Progress</th>
+                            <th class="col-2">Links</th>
+                        </tr>
+                    </thead>
+                    <tbody class="mx-auto d-flex flex-column">
+                        <tr class="row">
+                            <td class="col-2">CyberSafe Haven</td>
+                            <td class="col-4">Hackathon 1 Staying Safe Online Project with Code Institute</td>
+                            <td class="col-2">HTML, CSS, Bootstrap</td>
+                            <td class="col-2">Completed at Deadline</td>
+                            <td class="col-2"><a
+                                    href="https://cyberarchitect777.github.io/hackathon1-hackstreetboys-staying-safe-online/"
+                                    target="_blank">Website</a> - <a
+                                    href="https://github.com/CyberArchitect777/hackathon1-hackstreetboys-staying-safe-online"
+                                    target="_blank">Repository</a></td>
+                        </tr>
+                        <tr class="row">
+                            <td class="col-2">Hacker Whacker</td>
+                            <td class="col-4">Hackathon 2 Whack-a-Mole Style Game Project with Code Institute</td>
+                            <td class="col-2">HTML, CSS, Bootstrap, JavaScript</td>
+                            <td class="col-2">Completed at Deadline</td>
+                            <td class="col-2"><a
+                                    href="https://cyberarchitect777.github.io/hackathon2-hackattack-game-project/"
+                                    target="_blank">Website</a> - <a
+                                    href="https://github.com/CyberArchitect777/hackathon2-hackattack-game-project"
+                                    target="_blank">Repository</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="d-lg-none mt-4 table table-striped">
+                    <tbody>
+                        <tr>
+                            <td><strong>CyberSafe Haven</strong> - <strong>Hackathon 1</strong> Staying Safe Online
+                                Project with <em>Code Institute</em> (HTML, CSS, Bootstrap) - <a
+                                    href="https://cyberarchitect777.github.io/hackathon1-hackstreetboys-staying-safe-online/"
+                                    target="_blank">Website</a> - <a
+                                    href="https://github.com/CyberArchitect777/hackathon1-hackstreetboys-staying-safe-online"
+                                    target="_blank">Repository</a>
+                                <p class="mt-1 mb-0 fst-italic">Status: Completed at deadline</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>Hacker Whacker</strong> - <strong>Hackathon 2</strong> Whack-a-Mole Style Game
+                                Project with <em>Code Institute</em> (HTML, CSS, Bootstrap, JavaScript) - <a
+                                    href="https://cyberarchitect777.github.io/hackathon2-hackattack-game-project/"
+                                    target="_blank">Website</a> - <a
+                                    href="https://github.com/CyberArchitect777/hackathon2-hackattack-game-project"
+                                    target="_blank">Repository</a>
+                                <p class="mt-1 mb-0 fst-italic">Status: Completed at deadline</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </section>
         <section id="qualifications" class="boxstyling row colours-boxes" aria-label="Qualification Section">
@@ -260,216 +470,6 @@
                         </tr>
                         <tr>
                             <td><strong>Learn HTML</strong> at <em>Codeacademy</em> (Completed February 2022)
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </section>
-        <section id="personalproject" class="boxstyling row colours-boxes" aria-label="Individual Project Section">
-            <div class="col-12">
-                <div>
-                    <i class="fa-solid fa-people-group d-flex justify-content-center"></i>
-                    <p class="dataheading text-center d-block mt-4 mb-4">Individual Projects</p>
-                </div>
-                <table class="d-none d-lg-block mt-3 table table-striped">
-                    <thead class="mx-auto d-flex flex-column">
-                        <tr class="row">
-                            <th class="col-2">Title</th>
-                            <th class="col-4">Description</th>
-                            <th class="col-2">Technologies Used</th>
-                            <th class="col-2">Progress</th>
-                            <th class="col-2">Links</th>
-                        </tr>
-                    </thead>
-                    <tbody class="mx-auto d-flex flex-column">
-                        <tr class="row">
-                            <td class="col-2">Personal Site</td>
-                            <td class="col-4">My personal page containing information on my employment history, education, skills and software portfolio</td>
-                            <td class="col-2">HTML, CSS, Bootstrap</td>
-                            <td class="col-2">Completed, but maintained and improved periodically</td>
-                            <td class="col-2">This site - <a
-                                    href="https://github.com/CyberArchitect777/personal-site"
-                                    target="_blank">Repository</a></td>
-                        </tr>
-                        <tr class="row">
-                            <td class="col-2">Bootstrapped News Experiment</td>
-                            <td class="col-4">A single page to showcase coding skills in representing a humorous news
-                                front page</td>
-                            <td class="col-2">HTML, CSS, Bootstrap</td>
-                            <td class="col-2">Completed minus small tweaks</td>
-                            <td class="col-2"><a
-                                    href="https://cyberarchitect777.github.io/bootstrapped-news-experiment/"
-                                    target="_blank">Website</a> - <a
-                                    href="https://github.com/CyberArchitect777/bootstrapped-news-experiment"
-                                    target="_blank">Repository</a></td>
-                        </tr>
-                        <tr class="row">
-                            <td class="col-2">Carrier Directive</td>
-                            <td class="col-4">A text-mode strategic game inspired by the 1988 game Carrier Command</td>
-                            <td class="col-2">Python</td>
-                            <td class="col-2">Early stages</td>
-                            <td class="col-2"><a href="https://github.com/CyberArchitect777/carrier-directive"
-                                    target="_blank">Repository</a></td>
-                        </tr>
-                        <tr class="row">
-                            <td class="col-2">Hacker Whacker: Access Denied</td>
-                            <td class="col-4">A developed evolution of the original collaborative project Hacker Whacker
-                                (A themed whack-a-mole style game)</td>
-                            <td class="col-2">HTML, CSS, Bootstrap, JavaScript</td>
-                            <td class="col-2">Progressing</td>
-                            <td class="col-2"><a
-                                    href="https://cyberarchitect777.github.io/hacker-whacker-access-denied/"
-                                    target="_blank">Website</a> - <a
-                                    href="https://github.com/CyberArchitect777/hacker-whacker-access-denied"
-                                    target="_blank">Repository</a></td>
-                        </tr>
-                        <tr class="row">
-                            <td class="col-2">Byte 2 Eat: Extra Helping</td>
-                            <td class="col-4">A developed evolution of the original
-                                collaborative project Byte 2 Eat</td>
-                            <td class="col-2">HTML, CSS, Bootstrap, Python, Django</td>
-                            <td class="col-2">Nearing completion</td>
-                            <td class="col-2"><a
-                                    href="https://byte-2-eat-extra-helping-d8627f2c050a.herokuapp.com/"
-                                    target="_blank">Website</a> - <a
-                                    href="https://github.com/CyberArchitect777/byte-2-eat-extra-helping"
-                                    target="_blank">Repository</a></td>
-                        </tr>
-                        <tr class="row">
-                            <td class="col-2">MyMeds</td>
-                            <td class="col-4">A tracker designed to allow people to keep track of the medication they are taking</td>
-                            <td class="col-2">HTML, CSS, Bootstrap, PHP</td>
-                            <td class="col-2">Very early stages</td>
-                            <td class="col-2"><a
-                                    href="https://mymeds-ae895ce9ccba.herokuapp.com"
-                                    target="_blank">Website</a> - <a
-                                    href="https://github.com/CyberArchitect777/mymeds"
-                                    target="_blank">Repository</a></td>
-                        </tr>
-                    </tbody>
-                </table>
-                <table class="d-lg-none mt-3 table table-striped">
-                    <tbody>
-                        <tr>
-                            <td><strong>Personal Site</strong> - My personal page containing information on my employment history, education, skills and software portfolio (HTML, CSS, Bootstrap) - This site - <a
-                                    href="https://github.com/CyberArchitect777/personal-site"
-                                    target="_blank">Repository</a>
-                                <p class="mt-1 mb-0 fst-italic">Status: Completed, but maintained and improved periodically</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><strong>Bootstrapped News Experiment</strong> - A single page to showcase coding skills
-                                in representing a humorous news front page (HTML, CSS, Bootstrap) - <a
-                                    href="https://cyberarchitect777.github.io/bootstrapped-news-experiment/"
-                                    target="_blank">Website</a> - <a
-                                    href="https://github.com/CyberArchitect777/bootstrapped-news-experiment"
-                                    target="_blank">Repository</a>
-                                <p class="mt-1 mb-0 fst-italic">Status: Completed minus small tweaks</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><strong>Carrier Directive</strong> - A text-mode strategic game inspired by the 1988
-                                game Carrier Command (Python) - <a
-                                    href="https://github.com/CyberArchitect777/carrier-directive"
-                                    target="_blank">Repository</a>
-                                <p class="mt-1 mb-0 fst-italic">Status: Early stages</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><strong>Hacker Whacker: Access Denied</strong> - A developed evolution of the original
-                                collaborative game Hacker Whacker (HTML, CSS, Bootstrap, JavaScript) - <a
-                                    href="https://cyberarchitect777.github.io/hacker-whacker-access-denied/"
-                                    target="_blank">Website</a> - <a
-                                    href="https://github.com/CyberArchitect777/hacker-whacker-access-denied"
-                                    target="_blank">Repository</a>
-                                <p class="mt-1 mb-0 fst-italic">Status: Progressing</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><strong>Byte 2 Eat: Extra Helping</strong> - A developed evolution of the original
-                                collaborative project <em>Byte 2 Eat</em> (HTML, CSS, Bootstrap, Python, Django) - <a
-                                    href="https://byte-2-eat-extra-helping-d8627f2c050a.herokuapp.com/"
-                                    target="_blank">Website</a> - <a
-                                    href="https://github.com/CyberArchitect777/byte-2-eat-extra-helping"
-                                    target="_blank">Repository</a>
-                                <p class="mt-1 mb-0 fst-italic">Status: Nearing completion</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><strong>MyMeds</strong> - A tracker designed to allow people to keep track of the medication they are taking <em>MyMeds</em> (HTML, CSS, Bootstrap, PHP) - <a
-                                    href="https://mymeds-ae895ce9ccba.herokuapp.com"
-                                    target="_blank">Website</a> - <a
-                                    href="https://github.com/CyberArchitect777/mymeds"
-                                    target="_blank">Repository</a>
-                                <p class="mt-1 mb-0 fst-italic">Status: Very early stages</p>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </section>
-        <section id="groupproject" class="boxstyling row colours-boxes" aria-label="Collaborative Project Section">
-            <div class="col-12">
-                <div>
-                    <i class="fa-solid fa-people-group d-flex justify-content-center"></i>
-                    <p class="dataheading text-center d-block mt-4 mb-4">Collaborative Projects</p>
-                </div>
-                <table class="d-none d-lg-block mt-3 table table-striped">
-                    <thead class="mx-auto d-flex flex-column">
-                        <tr class="row">
-                            <th class="col-2">Title</th>
-                            <th class="col-4">Description</th>
-                            <th class="col-2">Technologies Used</th>
-                            <th class="col-2">Progress</th>
-                            <th class="col-2">Links</th>
-                        </tr>
-                    </thead>
-                    <tbody class="mx-auto d-flex flex-column">
-                        <tr class="row">
-                            <td class="col-2">CyberSafe Haven</td>
-                            <td class="col-4">Hackathon 1 Staying Safe Online Project with Code Institute</td>
-                            <td class="col-2">HTML, CSS, Bootstrap</td>
-                            <td class="col-2">Completed at Deadline</td>
-                            <td class="col-2"><a
-                                    href="https://cyberarchitect777.github.io/hackathon1-hackstreetboys-staying-safe-online/"
-                                    target="_blank">Website</a> - <a
-                                    href="https://github.com/CyberArchitect777/hackathon1-hackstreetboys-staying-safe-online"
-                                    target="_blank">Repository</a></td>
-                        </tr>
-                        <tr class="row">
-                            <td class="col-2">Hacker Whacker</td>
-                            <td class="col-4">Hackathon 2 Whack-a-Mole Style Game Project with Code Institute</td>
-                            <td class="col-2">HTML, CSS, Bootstrap, JavaScript</td>
-                            <td class="col-2">Completed at Deadline</td>
-                            <td class="col-2"><a
-                                    href="https://cyberarchitect777.github.io/hackathon2-hackattack-game-project/"
-                                    target="_blank">Website</a> - <a
-                                    href="https://github.com/CyberArchitect777/hackathon2-hackattack-game-project"
-                                    target="_blank">Repository</a></td>
-                        </tr>
-                    </tbody>
-                </table>
-                <table class="d-lg-none mt-3 table table-striped">
-                    <tbody>
-                        <tr>
-                            <td><strong>CyberSafe Haven</strong> - <strong>Hackathon 1</strong> Staying Safe Online
-                                Project with <em>Code Institute</em> (HTML, CSS, Bootstrap) - <a
-                                    href="https://cyberarchitect777.github.io/hackathon1-hackstreetboys-staying-safe-online/"
-                                    target="_blank">Website</a> - <a
-                                    href="https://github.com/CyberArchitect777/hackathon1-hackstreetboys-staying-safe-online"
-                                    target="_blank">Repository</a>
-                                <p class="mt-1 mb-0 fst-italic">Status: Completed at deadline</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><strong>Hacker Whacker</strong> - <strong>Hackathon 2</strong> Whack-a-Mole Style Game
-                                Project with <em>Code Institute</em> (HTML, CSS, Bootstrap, JavaScript) - <a
-                                    href="https://cyberarchitect777.github.io/hackathon2-hackattack-game-project/"
-                                    target="_blank">Website</a> - <a
-                                    href="https://github.com/CyberArchitect777/hackathon2-hackattack-game-project"
-                                    target="_blank">Repository</a>
-                                <p class="mt-1 mb-0 fst-italic">Status: Completed at deadline</p>
                             </td>
                         </tr>
                     </tbody>
