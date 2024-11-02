@@ -82,14 +82,10 @@ ul.dropdown-menu.show {
     padding: 10px;
 }
 
-#card-store {
-    display: grid;
-    grid-template-columns: 100%;
-}
-
 .card {
     margin: 10px;
     border: 1px solid black;
+    width: 100%;
 }
 
 .card-img-top {
@@ -147,9 +143,8 @@ footer p {
         padding: 30px;
     }
 
-    #card-store {
-        display: grid;
-        grid-template-columns: 50% 50%;
+    .card {
+        width: 45%;
     }
 
 }
@@ -161,18 +156,15 @@ footer p {
         left: -120px;
     }
 
-    #card-store {
-        display: grid;
-        grid-template-columns: 33% 33% 33%;
+    .card {
+        width: 31%;
     }
 
 }
 
 @media only screen and (min-width: 1400px) {
     
-    #card-store {
-        display: grid;
-        grid-template-columns: 25% 25% 25% 25%;
+    .card {
+        width: 23%;
     }
-
 }
