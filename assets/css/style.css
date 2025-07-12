@@ -82,6 +82,16 @@ ul.dropdown-menu.show {
     padding: 10px;
 }
 
+.card {
+    margin: 10px;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.card-img-top {
+    padding: 10px;
+}
+
 .dataheading {
     font-size: 200%;
     display: inline-block;
@@ -133,6 +143,10 @@ footer p {
         padding: 30px;
     }
 
+    .card {
+        width: 45%;
+    }
+
 }
 
 @media only screen and (min-width: 991px) {
@@ -142,4 +156,15 @@ footer p {
         left: -120px;
     }
 
+    .card {
+        width: 31%;
+    }
+
+}
+
+@media only screen and (min-width: 1400px) {
+    
+    .card {
+        width: 23%;
+    }
 }
