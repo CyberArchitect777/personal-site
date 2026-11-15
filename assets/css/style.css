@@ -90,6 +90,11 @@ ul.dropdown-menu.show {
 
 .card-img-top {
     padding: 10px;
+    /* Fit every image into a 16:9 frame, centring any with a different ratio */
+    box-sizing: content-box;
+    width: calc(100% - 20px);
+    aspect-ratio: 16 / 9;
+    object-fit: contain;
 }
 
 .dataheading {
