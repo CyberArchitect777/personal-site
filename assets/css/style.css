@@ -101,6 +101,11 @@ ul.dropdown-menu.show {
     padding-bottom: 20px;
 }
 
+#skillsapproach .accordion-body {
+    padding: 0 10px;
+    background-color: lightgrey;
+}
+
 #keyskillsaccordion .accordion-item {
     border-bottom: 0;
 }
@@ -109,7 +114,7 @@ ul.dropdown-menu.show {
     background-color: white;
 }
 
-#qualifications, #courses, #personalproject, #groupproject, #employment, #techskills, #personalskills, #interests {
+#qualifications, #courses, #personalproject, #groupproject, #employment, #skillsapproach, #interests {
     scroll-margin-top: 75px;
 }
 
