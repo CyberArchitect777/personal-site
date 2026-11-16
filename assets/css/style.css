@@ -119,11 +119,11 @@ ul.dropdown-menu.show {
     background-color: white;
 }
 
-#qualifications, #courses, #personalproject, #groupproject, #employment, #skillsapproach, #interests {
+#qualifications, #courses, #softwareprojects, #personalproject, #groupproject, #employment, #skillsapproach, #interests {
     scroll-margin-top: 75px;
 }
 
-#groupproject a, #personalproject a {
+#groupproject a, #personalproject a, #softwareprojects a {
     color: black;
 }
 
